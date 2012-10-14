@@ -1,7 +1,7 @@
 /* Basic */
 h1 {font-size:14px; line-height:28px; font-weight:bold;}
-a:visited, a:link {color:#fff; text-decoration:none;}
-a:hover, a:active {color:#03497d;}
+a:visited, a:link {color:#ff737; text-decoration:none;}
+a:hover, a:active {color:#ff7373;}
 
 /* layout */
 #wrap {width:960px; margin:0 auto; background-color:#fff}
