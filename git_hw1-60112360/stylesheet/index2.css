@@ -1,0 +1,69 @@
+/* Basic */
+h1 {font-size:14px; line-height:28px; font-weight:bold;}
+a:visited, a:link {color:#fff; text-decoration:none;}
+a:hover, a:active {color:#03497d;}
+
+/* layout */
+#wrap {width:960px; margin:0 auto; background-color:#fff}
+
+/*  -- header -- */
+#header {
+	width:100%; height:120px; background-color:#EC0033; 
+}
+
+#header_top {height:70px; }
+
+#header_left{
+	width: 100px; float:left; display:block; color:#FFF;
+	padding:10px; height:20px;
+}
+
+#header_right{width:800px; float:left; text-align:left;
+	display:block; height:20px; padding:20px 0px 0 0;
+	font-size: 30px;
+}
+
+
+/* -- navigation -- */
+#navbar {width:960px; height:48px;background-color:#ff4040;}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#fff; background-color:#ff7373;
+	display:block;
+	width:315px; 
+	text-align:center;
+	margin:2px 1px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+}
+#navbar ul li a.selected {background-color:#94c713;}
+#navbar ul li a:hover {background-color:#709647;}
+
+/*---------------------------------*/
+#main{
+	width:700px;
+	padding: 10px 0px; 
+	margin-left: 130px;
+	overflow:auto;
+}
+
+#main h1{
+	width:650px;
+	margin-bottom: 10px;
+	padding: 4px 6px 4px 44px;
+	background: #d7e9f9;
+	text-align: center;
+}
+
+#main span{ text-align: left; }
+
+#main li { 
+	width: 220px; display:block; float:left; margin:5px; 
+}
+
+#main li img { float:left; }
+
+#footer {
+	float: right; background-color:#EC0033; 
+}
